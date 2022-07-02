@@ -1,0 +1,63 @@
+@import '../../styles/variables.scss';
+
+.pagination {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px 0px 40px;
+  background-color: $mainBackground;
+
+  .paginationBlock {
+    display: block;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+    li {
+      display: inline-flex;
+      min-width: 32px;
+      height: 32px;
+      margin-right: 4px;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      border-radius: 8px;
+      outline: 0px;
+      cursor: pointer;
+      user-select: none;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+
+      a {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        padding: 0px 6px;
+        transition: none 0s ease 0s;
+        color: rgb(255, 255, 255) !important;
+      }
+
+      &.active {
+        background: $main-color;
+      }
+
+      &.selected {
+        background: $main-color;
+      }
+    }
+  }
+}

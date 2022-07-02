@@ -1,0 +1,132 @@
+@import '../../styles/variables.scss';
+
+.crypto {
+  background: $mainBackground;
+  padding-top: 5rem;
+
+  &__wrapper {
+    width: 97%;
+    margin: auto;
+
+    @media (max-width: 460px) {
+      width: 92%;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+
+    & > div {
+      margin-left: 1rem;
+      font-family: $font-inter-bold;
+    }
+
+    & > span {
+      @media (max-width: 460px) {
+        width: 28px !important;
+        height: 28px !important;
+      }
+    }
+  }
+
+  &__name {
+    font-size: 32px;
+
+    @media (max-width: 768px) {
+      font-size: 25px;
+    }
+    @media (max-width: 460px) {
+      font-size: 20px;
+    }
+  }
+
+  &__symbol {
+    font-size: 12px;
+    background-color: $borderBottom;
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+    @media (max-width: 768px) {
+      font-size: 10px;
+    }
+  }
+
+  &__price {
+    font-size: 32px;
+    font-family: $font-inter-bold;
+
+    @media (max-width: 768px) {
+      font-size: 25px;
+    }
+
+    @media (max-width: 460px) {
+      font-size: 20px;
+    }
+  }
+
+  &__additional-info {
+    display: flex;
+    margin: 1rem 0 0 2rem;
+
+    & > * {
+      font-size: 12px;
+      font-family: $font-inter-bold;
+      background-color: $borderBottom;
+      padding: 4px 6px;
+      border-radius: 5px;
+
+      @media (max-width: 768px) {
+        font-size: 10px;
+      }
+
+      @media (max-width: 460px) {
+        font-size: 10px;
+      }
+    }
+  }
+
+  &__category {
+    margin-left: 0.8rem;
+  }
+
+  &__basic_stats {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    & > div {
+      background-color: $borderBottom;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      width: 22%;
+      margin-top: 2rem;
+
+      & > h3 {
+        font-size: 16px;
+        font-family: $font-inter-med;
+        letter-spacing: 0.2px;
+      }
+
+      & > p {
+        font-size: 12px;
+        margin-top: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        width: 45%;
+      }
+
+      @media (max-width: 450px) {
+        width: 100%;
+      }
+    }
+  }
+}

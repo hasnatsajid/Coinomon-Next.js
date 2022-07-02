@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Inter reg";
+  src: url(../../assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter bold";
+  src: url(../../assets/fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Inter med";
+  src: url(../../assets/fonts/Inter-Medium.ttf);
+}
+header {
+  font: 100% "Inter reg", sans-serif;
+  background: #17171a;
+  color: white;
+}
+header a {
+  color: white;
+}
+header a:hover {
+  color: #33ffa0;
+}
+
+.desktop-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  width: 98%;
+  margin: auto;
+  display: none;
+}
+.desktop-menu .logo {
+  width: 2rem;
+  display: flex;
+  align-items: center;
+}
+.desktop-menu .logo div {
+  margin-left: 1rem;
+  font-family: "Inter med", sans-serif;
+  font-size: 25px;
+}
+.desktop-menu .nav-items {
+  display: flex;
+  align-items: center;
+}
+.desktop-menu .nav-items div {
+  margin-right: 1rem;
+  font-family: "Inter reg", sans-serif;
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  width: 98%;
+  margin: auto;
+}
+.mobile-menu .logo {
+  width: 2rem;
+  display: flex;
+  align-items: center;
+}
+.mobile-menu .logo div {
+  margin-left: 1rem;
+  font-family: "Inter med", sans-serif;
+  font-size: 25px;
+}
+.mobile-menu .menu-icon {
+  cursor: pointer;
+}
+.mobile-menu .nav-items {
+  display: flex;
+  align-items: center;
+}
+.mobile-menu .nav-items div {
+  margin-right: 1rem;
+  font-family: "Inter reg", sans-serif;
+}

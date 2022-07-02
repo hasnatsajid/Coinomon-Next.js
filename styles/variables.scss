@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Inter reg';
+  src: url(../assets/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Inter bold';
+  src: url(../assets/fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Inter med';
+  src: url(../assets/fonts/Inter-Medium.ttf);
+}
+
+$font-inter-reg: 'Inter reg', sans-serif;
+$font-inter-med: 'Inter med', sans-serif;
+$font-inter-bold: 'Inter bold', sans-serif;
+$primary-color: white;
+$mainBackground: #17171a;
+$footerBackground: #1a1a1d;
+$main-color: #00e67a;
+$main-light-color: #33ffa0;
+$textColor: #fff;
+$textGrayColor: #a1a7bb;
+$borderBottom: #222531;

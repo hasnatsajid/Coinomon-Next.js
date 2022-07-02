@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.adBanner {
+  padding: 10px 0 11px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: #001432;
+
+  min-width: 320px;
+  min-height: 100px;
+  .adHolder {
+    // min-width: 728px;
+    // min-height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $primary-color;
+  font-family: $font-inter-reg;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $main-color;
+  }
+}

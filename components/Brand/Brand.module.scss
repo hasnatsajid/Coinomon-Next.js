@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+.brand {
+  background: $mainBackground;
+  color: $main-color;
+  padding: 3rem 0 0 0;
+  font-size: 25px;
+  font-family: $font-inter-reg;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    // padding: 2rem 0 0 0;
+    font-size: 18px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 16px;
+  }
+}
